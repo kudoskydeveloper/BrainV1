@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <!-- home://auth (the "forgot password" e-mail link). The rest of Info.plist is generated from build settings. -->
+  <key>CFBundleURLTypes</key><array><dict>
+    <key>CFBundleURLName</key><string>com.lockedin.home</string>
+    <key>CFBundleURLSchemes</key><array><string>home</string></array>
+  </dict></array>
+</dict></plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key><string>local.brain.brain-calendar</string>
+	<key>CFBundleName</key><string>Brain Calendar</string>
+	<key>CFBundleExecutable</key><string>brain-calendar</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>LSUIElement</key><true/>
+	<key>NSCalendarsFullAccessUsageDescription</key><string>Brain reads and adds events in your calendars (iCloud, Google) on your request.</string>
+	<key>NSCalendarsUsageDescription</key><string>Brain reads and adds events in your calendars (iCloud, Google) on your request.</string>
+	<key>NSRemindersFullAccessUsageDescription</key><string>Brain reads and adds your reminders and shopping list on your request.</string>
+	<key>NSRemindersUsageDescription</key><string>Brain reads and adds your reminders and shopping list on your request.</string>
+	<key>NSContactsUsageDescription</key><string>Brain matches birthdays and name days with your contacts so it can remind you.</string>
+</dict>
+</plist>

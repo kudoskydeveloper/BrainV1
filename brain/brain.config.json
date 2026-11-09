@@ -1,0 +1,13 @@
+{
+  "auto_confirm": [
+    "brain:apple_notes_append",
+    "brain:apple_notes_create",
+    "market-alerts:update_watchlist"
+  ],
+  "sources": {},
+  "digest": { "email": true },
+  "idle_close_minutes": 5,
+  "apple_notes": { "exclude_ids": [] },
+  "off": [],
+  "remote": {}
+}

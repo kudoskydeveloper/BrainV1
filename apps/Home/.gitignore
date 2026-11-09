@@ -1,0 +1,7 @@
+.build/
+*.app
+.DS_Store
+supabase/.temp/
+supabase/.branches/
+ios/Home.xcodeproj/project.xcworkspace/
+ios/Home.xcodeproj/xcuserdata/

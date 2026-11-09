@@ -1,0 +1,24 @@
+# nikdy necommitovať osobné dáta
+.DS_Store
+node_modules/
+.build/
+.swiftpm/
+*.app
+__pycache__/
+*.pyc
+brain/data/
+brain/notes/
+brain/brain-only.mcp.json
+brain/notes-backup.json
+brain/tools/extract/brain-extract
+*.sqlite-wal
+*.sqlite-shm
+keys.env
+.env
+*.local.json
+apps/Recepty/Tools/data/
+apps/Home/supabase/.temp/
+apps/Home/supabase/.branches/
+apps/Home/ios/Home.xcodeproj/xcuserdata/
+apps/Home/ios/Home.xcodeproj/project.xcworkspace/
+apps/market-alerts/out/

@@ -1,0 +1,31 @@
+{
+  "auto_confirm": ["brain:apple_notes_append", "brain:apple_notes_create"],
+  "sources": {},
+  "digest": { "email": true },
+  "idle_close_minutes": 5,
+  "off": ["idoklad"],
+  "remote": { "moje-crm": "https://moje-crm.example/api/mcp" },
+
+  "dossier": {
+    "me": ["meno priezvisko", "ja@firma.sk", "ja@gmail.com"],
+    "team_domains": ["firma.sk"],
+    "not_meetings": "^(gym|blocker|travel|obed|lunch)\\b"
+  },
+  "ludia": { "me": ["meno priezvisko", "ja@firma.sk", "ja@gmail.com"] },
+  "calendar": {
+    "default_calendar": "ja@firma.sk",
+    "hide": ["Holidays in Slovakia", "Siri Suggestions", "Found in Mail"],
+    "not_busy": ["Meniny", "Narodeniny"]
+  },
+  "fathom": {
+    "me": ["meno", "ja@firma.sk"],
+    "skip_domains": [],
+    "folders": [
+      { "match": ["firma", "klient a"], "folder": "Firma/Meetings" }
+    ],
+    "default_folder": "Meetings"
+  },
+  "semantic": { "mail_skip_accounts": [], "model": "embeddinggemma" },
+  "exclude_drives": [],
+  "apple_notes": { "exclude_folders": ["Recently Deleted"], "exclude_ids": [] }
+}

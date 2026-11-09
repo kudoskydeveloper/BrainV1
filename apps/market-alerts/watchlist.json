@@ -1,0 +1,5 @@
+{
+  "symbols": ["SPY", "QQQ", "AAPL", "MSFT", "NVDA"],
+  "move_alert_pct": 3.0,
+  "levels": []
+}

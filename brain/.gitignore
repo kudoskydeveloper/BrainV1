@@ -1,0 +1,11 @@
+node_modules/
+data/
+tools/extract/brain-extract
+tools/calendar/Brain Calendar.app/
+.DS_Store
+__pycache__/
+notes-backup.json
+notes-navrhy.html
+tools/apple/Brain Apple.app/
+notes/
+brain-only.mcp.json

@@ -1,0 +1,15 @@
+<!-- Icon sketch for the future Financie app (personal finances), in the com.lockedin.* family: a euro sign built from an open
+     ring and two bars, white with one stroke width on a rose → magenta gradient (a colour no other app in Hangar uses yet).
+     Draw it in Icon/make-icon.swift like Meetings, Fitness, Faktúry and MarketBar (200 unit tile → 824 px, stroke 13). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="440" height="440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7AB6"/><stop offset="1" stop-color="#9E1F74"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".46" r=".46"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="10" y="10" width="200" height="200" rx="45" fill="url(#bg)"/>
+  <rect x="10" y="10" width="200" height="200" rx="45" fill="url(#glow)"/>
+  <g fill="none" stroke="#fff" stroke-width="13">
+    <path d="M156.3,77.9 A50,50 0 1 0 156.3,142.1"/>
+    <path d="M48,100 H122 M48,124 H114"/>
+  </g>
+</svg>

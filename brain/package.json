@@ -1,0 +1,17 @@
+{
+  "name": "brain-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Brain MCP: routes to all your MCP servers, knows where things are, learns.",
+  "bin": {
+    "brain": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}

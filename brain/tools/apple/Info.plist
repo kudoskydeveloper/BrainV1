@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key><string>local.brain.brain-apple</string>
+	<key>CFBundleName</key><string>Brain Apple</string>
+	<key>CFBundleExecutable</key><string>brain-apple</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>LSUIElement</key><true/>
+	<key>NSPhotoLibraryUsageDescription</key><string>Brain searches your photos (date, place, albums, text in pictures) and exports the ones you ask for.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key><string>Brain adds photos to an album when you confirm it.</string>
+</dict>
+</plist>
